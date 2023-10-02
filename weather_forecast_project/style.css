@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Open+Sans:wght@300;400;500;600;700&family=Red+Hat+Display:wght@400;500;700&family=Sriracha&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+body, html{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://images.unsplash.com/photo-1501786223405-6d024d7c3b8d?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFuZHNjYXBlfHx8fHx8MTY5NjAyMDM3Mw&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600");
+}
+
+.box1{
+    width: 90%;
+    max-width: 400px;
+    height: 300px;
+    background: #000000;
+    opacity: 0.8;
+    color: #ffffff;
+    border-radius: 0.8rem;
+    padding: 1.5rem;
+}
+
+#city{
+    border: none;
+    outline: none;
+    padding: 7px;
+    border-radius: 1rem;
+    font-size: 0.9rem;
+    background-color: #8f8f8f4b;
+    color: #ffffff;
+    width: calc(100% - 70px);
+}
+
+#search{
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    padding: 7px;
+    background-color: #8f8f8f4b;
+    float: right;
+    cursor: pointer;
+}
+
+#image1{
+    width: 20px;
+}
+
+#title{
+    font-size: 2rem;
+    margin: 0.8rem 0;
+    font-weight: 300; 
+}
+
+#number{
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#box3{
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+    transform: translate(-3%, 100%);
+    padding-top: 15px;
+}
+
+#temp{
+    padding-left: 10px;
+    text-transform: capitalize;
+}
+
+#umid{
+    padding-top: 14px;
+    float: right;
+}
