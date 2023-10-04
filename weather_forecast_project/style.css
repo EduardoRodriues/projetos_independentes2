@@ -15,7 +15,8 @@ body, html{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("https://images.unsplash.com/photo-1501786223405-6d024d7c3b8d?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFuZHNjYXBlfHx8fHx8MTY5NjAyMDM3Mw&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600");
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20230416/pngtree-sunset-river-autumn-landscape-image_2333610.jpg");
+    background-size: cover;
 }
 
 .box1{
