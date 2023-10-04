@@ -18,8 +18,10 @@ async function search(city) {
 }
 
 
-function click() {
-    const city = document.getElementById("city").value
+document.querySelector('#search').addEventListener('click', function() {
+    alert('test')
+    const  city = document.getElementById("city").value
 
     search(city)
-}
+    
+} )
