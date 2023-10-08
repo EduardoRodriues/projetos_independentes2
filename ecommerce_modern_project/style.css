@@ -347,3 +347,125 @@ section{
     background-color: #0054a3;
 }
 
+@media (max-width: 890px) {
+    .paka1{
+        font-size: 1rem;
+    }
+
+    .colss{
+        display: grid;
+    }
+
+    .content-image{
+        grid-template-columns: repeat(1 1fr);
+    }
+
+    .cols-4{
+        grid-template-columns: repeat(2 1fr);
+    }
+}
+
+/*coments*/
+
+.tudo{
+    width: 70%;
+    color: #000;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+.coments{
+    transform: translatex(15%);
+    height: 350px;
+    display: flex;
+    padding: 3rem ;
+    justify-content: space-between;
+    gap: 2rem;
+
+}    
+
+.coment{
+    width: 370px;
+    display: flex;
+    align-items: center;
+    flex-basis: 30%;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 1rem;
+    cursor: pointer;
+    box-shadow: 0 0 15px #afafaf;
+}
+
+.coment:hover{
+    transform: translateY(-5px);
+    transition: all 0.2s;
+}
+
+.coment p{
+    margin: 5px 0;
+    text-align: center;
+}
+
+.comname{
+    font-weight: bold;
+}
+
+.coment p:first-child{
+    color: #0084ff;
+    font-size: 5rem;
+    font-weight: bold;
+    
+}
+
+/*coments*/
+
+
+/*footer*/
+
+.footer{
+    display: flex;
+    align-items: center;
+    padding: 4rem 2rem;
+    gap: 2rem;
+}
+
+.donwload{
+    margin: 1rem 0;
+}
+
+.prima{
+    font-weight: bold;
+    padding-bottom: 3px;
+}
+
+.ultimas{
+    padding-top: 0.4rem;
+    display: flex;
+    width: 180px;
+    cursor: pointer;
+}
+
+.logo-footer{
+    text-align: center;
+}
+
+.linkss h3{
+    margin-bottom: 0.8rem;
+}
+
+.linkss ul{
+    list-style: none;
+}
+
+.linkss ul li{
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+}
+
+.lop{
+    font-size: 10px;
+}
+/*footer*/
+
