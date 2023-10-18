@@ -31,3 +31,27 @@ window.onscroll = () => {
     menuicon.classList.remove('bx-x');
     navbar.classList.remove('active');
 };
+
+
+
+ScrollReveal({
+     /*reset: true, */
+     distance: '80px',
+     duration: 2000,
+     deley: 200
+});
+
+ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
+ScrollReveal().reveal('.home-img, .service-conteiner, .portifolio-box, .contact form', { origin: 'bottom' });
+ScrollReveal().reveal('.home-content h1, .about img', { origin: 'left' });
+ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
+
+
+
+const typed = new Typed('.testm', {
+    strings: ['Frontend Developer','Traffic Manager','Seller'],
+    typeSpeed: 100,
+    backSpeed: 100,
+    backDeley: 1000,
+    loop : true
+});
